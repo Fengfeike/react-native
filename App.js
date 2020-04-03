@@ -36,7 +36,7 @@ const App = () => {
 			if(!user){
 				SplashScreen.hide();
 			}
-			if(user&&user.token){
+			if(user){
 				setLogin(true);
 				SplashScreen.hide();
 			}
